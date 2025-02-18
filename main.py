@@ -1,31 +1,24 @@
-# Session 1
-FirstName = input("First Name: Insert your First Name")
-MiddleName = input("Middle Name: Insert your Middle Name")
-LastName = input("Last Name: Insert your Last Name")
+# Session 2
+FirstName = input("First Name: Insert Your First Name")
+MiddleName = input("Middle Name: Insert Your Middle Name")
+LastName = input("Last Name: Insert Your Last Name")
 FullName = f"{FirstName} {MiddleName} {LastName}"
 print(f"Full Name: {FullName.title()}")
-
-
-# Session 2
-FirstName = input("First Name: Insert your First Name")
-MiddleName = input("Middle Name: Insert your Middle Name")
-LastName = input("Last Name: Insert your Last Name")
-print("Full Name:", (FirstName.title()), (MiddleName.title()), (LastName.title()))
 
 
 # Session 3
 PP = ["TPIA", "PTRO", "BRPT"]
 print(PP)
-PP.append("bren")
+PP.append("BREN")
 print(PP)
-PP.insert(1, "cuan")
+PP.insert(1, "CUAN")
 text_1 = f"My fav stock is {PP[2]}"
-text_2 = f"My fav stock is {PP[-1].upper()}"
-print(PP)
-PP.remove("BRPT")
+text_2 = f"My second fav stock is {PP[-1].upper()}"
 print(PP)
 print(text_1)
 print(text_2)
+PP.remove("BRPT")
+print(PP)
 PP.sort()
 print(PP)
 PP.sort(reverse=True)
